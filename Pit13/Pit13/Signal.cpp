@@ -1,17 +1,20 @@
+//Erstellt von Thorben
+
 #include <iostream>
 #include <string>
 #include <vector>
-#include "Signal.h"
 using namespace std;
+
+#include "Signal.h"
 
 	Signal::Signal() {
 		signalTyp = unbekannt;
 		quelle = "NULL";
 		quellenTyp = "NULL";
-		for ( int i=0; i <= anzahlZiele; i++) {
+		for ( int i = 0 ; i <= anzahlZiele ; i++ ) {
 			ziele[i] = "NULL";
 		}
-		int anzahlZiele=0;
+		int anzahlZiele = 0;
 	}
 	
 	Signal::~Signal() {
@@ -38,23 +41,23 @@ using namespace std;
 	}
 
 	void Signal::setAnzahlZiele(int Ziele) {
-		anzahlZiele=Ziele;
+		anzahlZiele = Ziele;
 	}
 
 	void Signal::setQuelle (std::string gatterName) {
-		quelle=gatterName;
+		quelle = gatterName;
 	}
 
 	void Signal::setQuellenTyp (std::string gatterTyp) {
-		quellenTyp=gatterTyp;
+		quellenTyp = gatterTyp;
 	}
 
 	void Signal::zielHinzufuegen (std::string gatterName, int pos) {
-		ziele[pos]=gatterName;
+		ziele[pos] = gatterName;
 
 	}
 
 
 	void Signal::setSignalTyp (signalTypen sigTyp) {
-		signalTyp=sigTyp;
+		signalTyp = sigTyp;
 	}
