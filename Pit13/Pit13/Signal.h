@@ -1,3 +1,6 @@
+#ifndef Signal_H
+#define Signal_H
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -28,3 +31,4 @@ public:
 	void zielHinzufuegen (std::string gatterName, int pos);
 
 };
+#endif
