@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pit13Graph", "Pit13\Pit13.vcxproj", "{8EF00804-B042-4A73-B307-0774D6181981}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pit13Menue", "Pit13Menue\Pit13Menue.vcxproj", "{F787AB58-8F90-44D8-8063-C3F0C48FD25F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pit13Faktoren", "Pit13Faktoren\Pit13Faktoren.vcxproj", "{A626B09F-EB41-4B91-B557-BE406DEA60A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EF00804-B042-4A73-B307-0774D6181981}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8EF00804-B042-4A73-B307-0774D6181981}.Debug|Win32.Build.0 = Debug|Win32
+		{8EF00804-B042-4A73-B307-0774D6181981}.Release|Win32.ActiveCfg = Release|Win32
+		{8EF00804-B042-4A73-B307-0774D6181981}.Release|Win32.Build.0 = Release|Win32
+		{F787AB58-8F90-44D8-8063-C3F0C48FD25F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F787AB58-8F90-44D8-8063-C3F0C48FD25F}.Debug|Win32.Build.0 = Debug|Win32
+		{F787AB58-8F90-44D8-8063-C3F0C48FD25F}.Release|Win32.ActiveCfg = Release|Win32
+		{F787AB58-8F90-44D8-8063-C3F0C48FD25F}.Release|Win32.Build.0 = Release|Win32
+		{A626B09F-EB41-4B91-B557-BE406DEA60A6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A626B09F-EB41-4B91-B557-BE406DEA60A6}.Debug|Win32.Build.0 = Debug|Win32
+		{A626B09F-EB41-4B91-B557-BE406DEA60A6}.Release|Win32.ActiveCfg = Release|Win32
+		{A626B09F-EB41-4B91-B557-BE406DEA60A6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
